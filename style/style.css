@@ -1,0 +1,105 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    float: left;
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.header h1 {
+    color: blue;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+}
+
+header {
+    display: block;
+}
+
+div.header-line {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 25rem;
+    background: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.full-width-header {
+    position: relative;
+    margin: 0 -30px;
+    padding: .25rem 30px;
+    background: white;
+    color: red;
+    font-size: 1.125em;
+}
+.full-width-header::before, .full-width-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 960px;
+    right: 100%;
+    background: red;
+}
+
+.full-width-header::after {
+    width: 960px;
+    left: 100%;
+    background: red;
+}
+
+.content {
+    line-height: 28px;
+    height: 720px;
+}
+
+.tab-container {
+    position: relative;
+    background: blue;
+    width: 120px;
+    height: 720px;
+    float: left;
+    z-index: 20;
+}
+
+.tab-container, label {
+    position: relative;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    display: block;
+    font-size: 13px;
+    color: whitesmoke;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tab-container label:hover {
+    background: lightskyblue;
+}
+
+input[name="tab"] {
+    display: none;
+}
+
+.tab-content {
+    position: relative;
+    background: #eee;
+    width: 1240px;
+    height: 740px;
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+    z-index: 19;
+    display: none;
+}
+
+input[name="tab"]:checked+.tab-content {
+    display: block;
+    animation: slide 0.5s forwards;
+} 
