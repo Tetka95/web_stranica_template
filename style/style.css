@@ -94,6 +94,7 @@ input[name="tab"] {
     height: 740px;
     padding: 15px;
     float: left;
+    text-align: center;
     box-sizing: border-box;
     z-index: 19;
     display: none;
@@ -103,3 +104,11 @@ input[name="tab"]:checked+.tab-content {
     display: block;
     animation: slide 0.5s forwards;
 } 
+
+aside {
+    position: relative;
+    background-color: aquamarine;
+    align-content: center;
+    text-align: center;
+    
+}
