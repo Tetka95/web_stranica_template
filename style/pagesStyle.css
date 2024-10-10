@@ -1,0 +1,28 @@
+body {
+    text-align: end;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #272626;
+    align-content: center;
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    width: 900px;
+    height: 600px;
+    background-color: #741616;
+    margin: 100px 300px 300px 500px;
+}
+
+h2 {
+    padding: 50px;
+}
+
+.content {
+    text-align: justify;
+    margin: 0px 50px 100px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

@@ -1,0 +1,40 @@
+#menuButton {
+    display: block;
+    border: none;
+    background: none;
+    text-align: justify;
+}
+
+.menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #272626;
+    border: 1px solid #272626;
+}
+
+.menu.visible {
+    display: block;
+    max-width: 200px;
+    max-height: 400px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+}
+
+.menu li {
+    padding: 8px 12px;
+}
+
+.menu li:hover {
+    background-color: #741616;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}

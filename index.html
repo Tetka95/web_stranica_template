@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web stranica</title>
     <link href="./style/style.css" rel="stylesheet">
+    <link href="./style/menuStyle.css" rel="stylesheet">
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/dropdownMenu.js"></script>
 </head>
 <body>
     <header>
-        <h1>NASLOV</h1> <!--ili <img> koji sadrži logo-->
-        <nav>
-            <!--dodaj drop down menu-->
-        </nav>
+        <h1 class="naslov">NASLOV</h1> <!--ili <img> koji sadrži logo-->
+        
+        <button id="menuButton">&#xf0c9;</button>
+        <ul class="menu" id="menu">
+            <li><a href="#">Početna</a></li>
+            <li><a href="./pages/page1.html">Stranica 1</a></li>
+            <li><a href="./pages/page1.html">Stranica 2</a></li>
+            <li><a href="./pages/page1.html">Kontakt</a></li>
+        </ul>
+          
     </header>
 
     <main>
