@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova stranica</title>
     <link href="../style/pagesStyle.css" rel="stylesheet">
-    <!--NE ZABORAVI UČITATI SKRIPTU/SKRIPTE-->
+    <link href="../style/menuStyle.css" rel="stylesheet">
+    <link href="../style/style.css" rel="stylesheet">
+    <script src="../scripts/dropdownMenu.js"></script>
 </head>
 <body>
     <header>
-        <h1>NASLOV</h1> <!--ili <img> koji sadrži logo-->
-        <nav>
-            <!--dodaj drop down menu-->
-        </nav>
+        <div class="header-container">
+            <h1 class="naslov">NASLOV</h1> <!--ili <img> koji sadrži logo-->
+        
+            <div class="navSection">
+                <div class="navItem">
+                    <button id="menuButton"><img src="../media/img/burger menu icon.png" width="20px" height="20px" alt="menu"></button>
+                    <ul class="menu" id="menu">
+                        <li><a href="#">Početna</a></li>
+                        <li><a href="./pages/page1.html">Stranica 1</a></li>
+                        <li><a href="./pages/page1.html">Stranica 2</a></li>
+                        <li><a href="./pages/page1.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="container">
+        <div class="container1">
             <h2>PODNASLOV</h2>
             <div class="content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ullam impedit libero aspernatur ducimus! Assumenda illum deserunt a veritatis vero placeat beatae, necessitatibus harum. Odio ex repellendus expedita minus quis.

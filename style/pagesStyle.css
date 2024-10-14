@@ -1,5 +1,4 @@
 body {
-    text-align: end;
     font-family: 'Courier New', Courier, monospace;
     background-color: #272626;
     align-content: center;
@@ -9,7 +8,7 @@ main {
     text-align: center;
 }
 
-.container {
+.container1 {
     width: 900px;
     height: 600px;
     background-color: #741616;
@@ -22,7 +21,6 @@ h2 {
 
 .content {
     text-align: justify;
-    margin: 0px 50px 100px 50px;
     margin-left: 50px;
     margin-right: 50px;
 }
