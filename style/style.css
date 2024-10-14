@@ -4,8 +4,24 @@ body {
     background-color: #272626;
 }
 
-header {
+.header-container {
     display: inline-flex;
+    align-items: baseline;
+}
+
+.navSection {
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 200px;
+    direction: rtl;
+}
+
+.navItem {
+    text-align: justify;
+}
+
+.menu {
+    direction: ltr;
 }
 
 main {
