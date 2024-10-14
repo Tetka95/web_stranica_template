@@ -6,14 +6,14 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-between; /* Razdvaja naslov i meni */
-    align-items: center; /* Poravnava vertikalno */
-    width: 100%; /* Obezbeđuje da header zauzima celu širinu */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .naslov {
-    flex-grow: 1; /* Ovo će omogućiti da naslov zauzme sav preostali prostor i bude centriran */
-    text-align: center; /* Centrira tekst unutar samog naslova */
+    flex-grow: 1;
+    text-align: center;
 }
 
 main {
@@ -111,23 +111,3 @@ main {
     text-align: center;
     font-size: 16px;
 }
-
-/*
-.container .card .face.face1 .content .seeMore {
-    margin: 15px 0 0;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #686565;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-}
-
-.container .card .face.face1 .content .seeMore:hover {
-    background: #333;
-    color: #fff;
-}
-
-STIL ZA LINKOVE KOJI MOŽDA NIJE POTREBAN
-*/
