@@ -5,23 +5,15 @@ body {
 }
 
 .header-container {
-    display: inline-flex;
-    align-items: baseline;
+    display: flex;
+    justify-content: space-between; /* Razdvaja naslov i meni */
+    align-items: center; /* Poravnava vertikalno */
+    width: 100%; /* Obezbeđuje da header zauzima celu širinu */
 }
 
-.navSection {
-    margin-left: 200px;
-    margin-right: 200px;
-    max-width: 200px;
-    direction: rtl;
-}
-
-.navItem {
-    text-align: justify;
-}
-
-.menu {
-    direction: ltr;
+.naslov {
+    flex-grow: 1; /* Ovo će omogućiti da naslov zauzme sav preostali prostor i bude centriran */
+    text-align: center; /* Centrira tekst unutar samog naslova */
 }
 
 main {
@@ -41,7 +33,9 @@ main {
     max-height: 960px;
     position: relative;
     display: inline-flex;
-    /*justify-content: space-between; NE RADI TU*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
     margin: 15px auto;
     
 }
@@ -49,6 +43,7 @@ main {
 .container .card {
     position: relative;
     cursor: pointer;
+    width: calc(33.33% - 20px);
 }
 
 .conteiner .card .face {
