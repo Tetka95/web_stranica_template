@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -32,7 +33,7 @@ main {
     align-items: flex-start;
     display: flex;
     justify-content: center;
-    overflow: hidden;
+    overflow-x: hidden;
     padding: 50px 0;
 }
 
@@ -143,28 +144,6 @@ footer {
 
 @media screen and (max-width: 800px) {
     
-    html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-    
-    body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
-    
-    main {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 20px 0;
-    }
-    
-
     .header-container {
         display: flex;
         flex-direction: column;
