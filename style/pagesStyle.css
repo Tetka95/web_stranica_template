@@ -19,8 +19,17 @@ h2 {
     padding: 50px;
 }
 
-.content {
+.content1 {
     text-align: justify;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 100px 150px 200px 150px;
 }
