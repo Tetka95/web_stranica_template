@@ -1,7 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-color: #272626;
+    min-height: 100vh;
 }
 
 .header-container {
@@ -9,6 +20,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: #741616;
 }
 
 .naslov {
@@ -17,7 +29,12 @@ body {
 }
 
 main {
-    align-items: center;
+    flex: 1;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 50px 0;
 }
 
 .article-content {
@@ -29,26 +46,28 @@ main {
 }
 
 .container {
-    max-width: 960px;
-    max-height: 960px;
+    max-width: 100%;
+    max-height: 100%;
     position: relative;
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    margin: 15px auto;
+    gap: 30px;
+    margin-inline-start: 250px;
+    margin-inline-end: 250px;
     
 }
 
 .container .card {
     position: relative;
     cursor: pointer;
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 30px);
+    box-sizing: border-box;
 }
 
 .conteiner .card .face {
-    width: 300px;
-    height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     transition: 0.5s;
 }
 
@@ -110,4 +129,14 @@ main {
     color: white;
     text-align: center;
     font-size: 16px;
+}
+
+footer {
+    width: 100%;
+    background-color: #686565;
+    padding: 10px;
+    margin: 0%;
+    position: fixed;
+    bottom: 0;
+    text-align: left;
 }
