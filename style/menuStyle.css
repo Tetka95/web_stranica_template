@@ -4,6 +4,7 @@
     justify-content: flex-end;
     max-width: 200px;
     direction: rtl;
+    cursor: pointer;
 }
 
 
@@ -19,6 +20,7 @@
     text-align: justify;
     z-index: 1100;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .menu {
