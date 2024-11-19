@@ -13,6 +13,7 @@ main {
     height: 600px;
     background-color: #741616;
     margin: 100px 300px 300px 300px;
+    box-shadow: 24px 24px 24px rgba(0, 0, 0, 0.5)
 }
 
 h2 {
